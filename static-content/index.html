@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fortnite</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script language="javascript" src="model.js"> </script>
+    <script language="javascript" src="controller.js"> </script>
+    <script language="javascript" src="player.js"> </script>
+    <script language="javascript" src="camera.js"> </script>
+    <script language="javascript" src="map.js"> </script>
+    <script language="javascript" src="weapon.js"> </script>
+    <script language="javascript" src="amunition.js"> </script>
+    <script language="javascript" src="mapObject.js"> </script>
+    <script language="javascript" src="sidebar.js"> </script>
+    <script language="javascript" src="rest.js"></script>
+    <script language="javascript" src="monster.js"></script>
+    <script language="javascript" src="stoneObject.js"></script>
+
+</head>
+
+<body bgcolor=ffffff>
+    <!-- register -->
+    <div id='register'>
+        <h1 id="regtitle">Register page</h1>
+        <label><b>Username</b></label>
+        <input type="text" id="reg_name" /><br>
+        <label><b>Password</b></label>
+        <input type="password" id="reg_pwd" /><br>
+        <label><b>Confirm Password</b></label>
+        <input type="password" id="reg_confirm" /><br>
+        <label><b>E-mail</b></label>
+        <input type="text" id="email" /><br>
+        <button onclick="userRegister()">Submit</button>
+        <button onclick="goToLogin()">Back</button><br>
+        <p id='reg_error'></p>
+    </div>
+    <!-- login -->
+    <div id='login'>
+        <h1 id="logintitle">Login page</h1>
+        <label><b>Username</b></label>
+        <input type="text" id="login_name" /><br>
+        <label><b>Password</b></label>
+        <input type="password" id="login_pwd" /><br>
+        <button onclick="userLogin()">Login</button>
+        <button onclick="goToRegister()">Do not have an account?</button><br>
+        <p id='login_error'></p>
+    </div>
+    <center>
+        <!-- canvas -->
+        <div id='game'>
+            <h1>fortnite game</h1>
+            <label><b>email</b></label>
+            <input type="text" id="change_email" />
+            <button onclick="changeEmail()">update personal info</button>
+            <button onclick="deleteAccount()">delete account</button>
+            <button onclick="userLogout()">Logout</button>
+            <p id='game_error'></p><br>
+            <label><b>Your highest score is </b></label>
+            <p id='high_score'></p><br>
+            <canvas id="stage" width="800" height="800" style="border:1px solid black;"> </canvas>
+        </div>
+    </center>
+</body>
+
+</html>

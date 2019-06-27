@@ -1,0 +1,7 @@
+CREATE TABLE `user` (
+	`uname`	TEXT,
+	`pwd`	TEXT,
+	`email`	TEXT,
+	`score`	INTEGER,
+	PRIMARY KEY(uname)
+);

@@ -1,0 +1,144 @@
+Features: For each feature you implement, move to the Implemented section and
+explain who did it (utorid) and how you did it. You can consider these as 
+almost user stories, if you just add a bit to them. Add more features/user stories at the bottom.
+Move them up when completed.
+
+------------------------------------------------------------------------------------
+Implemented: 
+------------------------------------------------------------------------------------
+
+// basic features
+
+2) Use of canvas
+   Done by: taoyige/zhouzhib
+   Explanation: Use canvas to draw map, player, stone, bullet, weapons, AI
+
+3) Player starts without a weapon
+   Done by: taoyige/zhouzhib
+   Explanation: player start without weapon, but can attack by hand, can pick up weapon later
+
+3) Keyboard movement wasd
+   Done by: taoyige/zhouzhib
+   Explanation: use "q", "w", "e", "a", "s", "d", "z", "x" to move.
+
+3) Mouse to move crosshair
+   Done by: taoyige/zhouzhib
+   Explanation: this direction of player with change by the position of mouse
+
+4) Amunition runs out
+   Done by: taoyige/zhouzhib
+   Explanation: Amunition can run out and number of amunition is displayed 
+
+5) Amunition can be picked up
+   Done by: taoyige/zhouzhib
+   Explanation: Amunition can be picked up when you walk through it
+
+6) Amunition amount on display.
+   Done by: taoyige/zhouzhib
+   Explanation: displayed on the right down corner
+
+7) Health on display
+   Done by: taoyige/zhouzhib
+   Explanation: displayed on the right down corner
+
+8) Can fire weapon, projectile on display
+   Done by: taoyige/zhouzhib
+   Explanation: press mouse to fire
+
+9) Opponents can be killed
+   Done by: taoyige/zhouzhib
+   Explanation: AI can be killed
+
+10)Player can be killed
+   Done by: taoyige/zhouzhib
+   Explanation: player is died when the health less or equal to zero
+
+11)Large world centered and scrolling around player, like in the linked examples above.
+   Done by: taoyige/zhouzhib
+   Explanation: player always in the middle of screen
+
+12)Obstacles in the world
+   Done by: taoyige/zhouzhib
+   Explanation: stone in the world cannot go through
+
+13)Single type of AI, multiple AI opponents
+   Done by: taoyige/zhouzhib
+   Explanation: AI is trying to kill you if u in AI's range
+
+14)Player initially appears at simple location, for example, center of map.
+   Done by: taoyige/zhouzhib
+   Explanation: player appears without AI, Stones
+
+15)Multiple projectiles fired from player weapon at the same time.
+   Done by: taoyige/zhouzhib
+   Explanation: you can fire Multiple projectiles
+
+16)Projectile has limited range, impacts opponents and other obstacles in map.
+   Done by: taoyige/zhouzhib
+   Explanation: short gun and long gun have different range, and can kill AI and stones
+
+// additional features
+17) Different actors have different velocities
+   Done by: taoyige/zhouzhib
+   Explanation: different AI have different speed
+
+18)Movement through terrain at different velocities
+   Done by: taoyige/zhouzhib
+   Explanation: short gun and long gun have different range, and can kill AI and stones
+
+19)Obstacles can be destroyed
+   Done by: taoyige/zhouzhib
+   Explanation: stones can be destored
+
+20)Interesting items, weapons can be picked up. Different weapons have different characteristics.
+   Done by: taoyige/zhouzhib
+   Explanation: different gun have different damage and range
+
+21)Interesting items on display in inventory, can be used as in the linked example games.
+   Done by: taoyige/zhouzhib
+   Explanation: can pick up bag, bullet, and gun
+
+22)Player can build
+   Done by: taoyige/zhouzhib
+   Explanation: player can build stones to cover bullets
+
+23)Multiple types of AI, and multiple opponents
+   Done by: taoyige/zhouzhib
+   Explanation: AI have different speed and direction
+
+24)Transporter pods
+   Done by: taoyige/zhouzhib
+   Explanation: can carry more gun with bag
+
+// member management using nodejs and express
+24)Login API/PAge
+   Done by: taoyige/zhouzhib
+   Explanation: login feature
+
+25)Register API/PAge
+   Done by: taoyige/zhouzhib
+   Explanation: Register feature, with validating email and if exist user
+
+26)Delete Account API/PAge
+   Done by: taoyige/zhouzhib
+   Explanation: delete an account feature
+
+27)Update Email API/PAge
+   Done by: taoyige/zhouzhib
+   Explanation: update email feature
+
+28)Update Score API/PAge
+   Done by: taoyige/zhouzhib
+   Explanation: update highest score feature
+
+29)customize port number
+   Done by: taoyige/zhouzhib
+   Explanation: set argument value to choose port number
+
+
+
+
+
+------------------------------------------------------------------------------------
+Unimplemented:
+------------------------------------------------------------------------------------
